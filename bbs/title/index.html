@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<?php 
 
-	$webroot = $_SERVER['DOCUMENT_ROOT'];
+	<?php 
 
-	include_once($webroot."/src/common/setup.php");
+		$webroot = $_SERVER['DOCUMENT_ROOT'];
 
-	$threadInformation = getThreadInformation();
-	
-	$threadId = $threadInformation["threadId"];
+		include_once($webroot."/src/common/function.php");
 
-?>
+		$threadInformation = getThreadInformation();
+		
+		$threadId = $threadInformation["threadId"];
+
+	?>
 
 <html>
 
-<?php 
-	
-	include_once($webroot."/src/parts/head.php");
-	include_once($webroot."/src/parts/body.php");
-	
-?>
+	<?php 
+		
+		include_once($webroot."/src/parts/head.php");
+		
+		include_once($webroot."/src/parts/body.php");
+		
+	?>
 
 </html>

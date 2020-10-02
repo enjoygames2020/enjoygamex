@@ -1,5 +1,5 @@
 <footer style = "text-align:center;">
 
-		<small>Copyright&copy; 2020 <a href="/">PHPによる掲示板の作り方</a>  All Rights Reserved.</small>
+		<small>2020/FPS掲示板.</small>
 
 </footer>

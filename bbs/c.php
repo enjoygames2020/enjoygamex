@@ -1,9 +1,7 @@
-<?php 
-    include($webroot."/src/parts/form2.php");
-?>
 <section>
-    <br>
+
     <p style = "text-align:center;font-size:36px;">ゲームタイトル</p>
+
 <div style = "border-bottom:ridge;padding-bottom:60px;">
 
     <ul style = "margin-top:60px;border:ridge;border-radius:13px;width:666px;
@@ -24,10 +22,9 @@
 
             ?>
         </li>
+
     </ul>
 
 </div>
     
-
-
 </section>
